@@ -23,8 +23,3 @@ def func():
     }
     r3 = requests.post(url=url3,data=data.encode("utf-8"),headers=h3)
     print('\nr3状态码：', r3.text)
-
-
-# main
-if __name__ == '__main__':
-    func()
